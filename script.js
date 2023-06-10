@@ -1,4 +1,5 @@
 
 document.getElementById('backButton').addEventListener('click', function() {
-    history.back();
+    //history.back();
+    window.location.href = 'index.html';
   });
